@@ -1,0 +1,15 @@
+grains:
+  roles:
+    - lint
+
+failhard: True
+
+file_client: local
+
+file_roots:
+  base:
+    - /tmp/states
+
+pillar_roots:
+  base:
+    - /tmp/pillar
